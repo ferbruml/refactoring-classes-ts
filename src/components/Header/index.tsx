@@ -19,7 +19,7 @@ export default function Header(props: HeaderProps) {
           <div>
             <button
               type="button"
-              onClick={openModal}
+              onClick={(openModal)}
             >
               <div className="text">Novo Prato</div>
               <div className="icon">
